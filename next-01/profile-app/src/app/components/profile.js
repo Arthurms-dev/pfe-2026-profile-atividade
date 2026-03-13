@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function Profile() {
   return (
     <div className="flex flex-col items-center text-white">
-      <h1 className="text-3xl mb-6">
+      <h1 className="text-4xl font-bold mb-4">
         Arthur Vinícius Moreira da Silva
       </h1>
       
@@ -15,7 +15,7 @@ export default function Profile() {
         />
       </div>
 
-      <div className="text-center">
+      <div className="text-center text-lg">
         <p>
           Sou estudante de Sistemas para Internet na UNICAP.
         </p>
